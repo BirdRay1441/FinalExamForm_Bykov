@@ -1,7 +1,7 @@
 #INTRO TO IT 2nd COURSE
 # Задача 6: Гласные в высоте!
 # Посчитай количество гласных букв в строке.
-def подсчет_гласных(строка):
-    return sum(1 for символ in строка if символ.lower() in "аеёиоуыэюя")
-строка = "Привет, мир!"
-print(f"В '{строка}' {подсчет_гласных(строка)} гласных")
+def counting_of_the_unanimous(string):
+    return sum(1 for char in string if char.lower() in "аеёиоуыэюя")
+string = "Привет, мир!"
+print(f"В '{string}' {counting_of_the_unanimous(string)} гласных")
